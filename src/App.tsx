@@ -5,10 +5,29 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import PageLayout from './components/PageLayout';
+import { CssBaseline } from '@mui/material';
+import { PageRoutes } from './pages/pageRoutes';
+
+const router = createBrowserRouter([
+  {
+    path: "",
+    element: <PageLayout />,
+    children: PageRoutes.map(route => {
+      return {
+        path: route.path,
+        element: route.element,
+      }
+    })
+  }
+])
+
 const App = () => {
   return (
     <>
-      <h1>Home</h1>
+      <CssBaseline />
+      <RouterProvider router={router} />
     </>
   )
 }
