@@ -1,6 +1,7 @@
 import { Box, Chip, Container, Divider, Typography } from "@mui/material"
 
-const Skills = ["React",
+const Skills = [
+  "React",
   "TypeScript",
   "JavaScript",
   ".Net",
@@ -10,7 +11,8 @@ const Skills = ["React",
   "Java",
   "SQL Server",
   "SQLITE",
-  "Azure"]
+  "Azure"
+]
 
 const HomePage = () => {
 
@@ -18,14 +20,14 @@ const HomePage = () => {
     <Container sx={{ flex: 1 }}>
       <Typography
         variant="h2"
-        sx={{ fontFamily: "UnifontEX", textAlign: "start", padding: "3rem 0" }}
+        sx={{ textAlign: "start", padding: "3rem 0" }}
       >
         Hello, my name is Toby.
       </Typography>
       <Typography
         variant="h4"
         component="p"
-        sx={{ fontFamily: "UnifontEX", textAlign: "start" }}
+        sx={{ textAlign: "start" }}
       >
         I am a software developer with a strong background in leading multi-platform projects across web, mobile, and desktop.
         <br />
@@ -40,23 +42,23 @@ const HomePage = () => {
         <Box sx={{ flex: 1 }}>
           <Typography
             variant="h3"
-            sx={{ fontFamily: "UnifontEX", textAlign: "start" }}
+            sx={{ textAlign: "start" }}
           >
             Skills
           </Typography>
           <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, padding: "2rem 0" }}>
             {
               Skills.map(skill => (
-                <Chip key={skill} label={skill} sx={{ fontFamily: "UnifontEX", fontSize: "larger" }} />
+                <Chip key={skill} label={skill} sx={{ fontSize: "larger" }} />
               ))
             }
-            <Chip label="etc..." sx={{ fontFamily: "UnifontEX", fontSize: "larger" }} />
+            <Chip label="etc..." sx={{ fontSize: "larger" }} />
           </Box>
         </Box>
         <Box sx={{ flex: 1 }}>
           <Typography
             variant="h3"
-            sx={{ fontFamily: "UnifontEX", textAlign: "start" }}
+            sx={{ textAlign: "start" }}
           >
             Highlights
           </Typography>

@@ -25,7 +25,7 @@ const Header = () => {
           <Box sx={{ flex: 1, textAlign: "start" }}>
             <Button
               size="large"
-              sx={{ color: "white", fontFamily: "UnifontEX", fontSize: "x-large" }}
+              sx={{ color: "white", fontSize: "x-large" }}
               onClick={() => handlePageRouteClick("/")}
             >
               Toby Yeung
@@ -36,7 +36,7 @@ const Header = () => {
               PageRoutes.map((route, index) => (
                 <Button
                   key={index}
-                  sx={{ color: "white" }}
+                  sx={{ color: "white", fontSize: "larger" }}
                   onClick={() => handlePageRouteClick(route.path)}
                 >
                   {route.pageName}

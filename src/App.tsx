@@ -9,8 +9,14 @@ import '@fontsource/unifontex/400.css';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import PageLayout from './components/PageLayout';
-import { CssBaseline } from '@mui/material';
+import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
 import { PageRoutes } from './pages/pageRoutes';
+
+const theme = createTheme({
+  typography:{
+    fontFamily: "UnifontEX"
+  }
+})
 
 const router = createBrowserRouter([
   {
@@ -29,7 +35,9 @@ const App = () => {
   return (
     <>
       <CssBaseline />
-      <RouterProvider router={router} />
+      <ThemeProvider theme={theme}>
+        <RouterProvider router={router} />
+      </ThemeProvider>
     </>
   )
 }
