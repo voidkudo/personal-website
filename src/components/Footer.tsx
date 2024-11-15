@@ -1,8 +1,13 @@
+import { Box, Typography } from "@mui/material"
+
 const Footer = () => {
   return (
-    <footer>
-      Footer
-    </footer>
+    <Box component="footer">
+      <Typography>
+        Copyright © {new Date().getFullYear().toString()} Toby Yeung
+      </Typography>
+    </Box>
+
   )
 }
 
