@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom"
 export type MobileNavDrawerHandle = {
   handleDrawerOpen: () => void,
   handleDrawerClose: () => void,
-
 }
 
 const MobileNavDrawer = forwardRef<MobileNavDrawerHandle, DrawerProps>((props, ref) => {
