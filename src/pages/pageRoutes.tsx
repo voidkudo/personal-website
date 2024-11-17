@@ -1,12 +1,12 @@
 import { ReactNode } from "react";
 import AboutPage from "./AboutPage";
 import HomePage from "./HomePage";
-import PortfolioPage from "./PortfolioPage";
+import ResumePage from "./ResumePage";
 
 export const enum Page {
   Home = "Home",
   About = "About",
-  Portfolio = "Portfolio",
+  Resume = "Resume",
 }
 
 export type PageRoute = {
@@ -27,8 +27,8 @@ export const PageRoutes: PageRoute[] = [
     element: <AboutPage />
   },
   {
-    pageName: Page.Portfolio,
-    path: "/portfolio",
-    element: <PortfolioPage />
+    pageName: Page.Resume,
+    path: "/resume",
+    element: <ResumePage />
   },
 ]

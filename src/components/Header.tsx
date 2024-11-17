@@ -3,7 +3,7 @@ import { AppBar, Box, Button, IconButton, Toolbar } from "@mui/material"
 import { PageRoutes } from "../pages/pageRoutes"
 import { useNavigate } from "react-router-dom";
 import MobileNavDrawer, { MobileNavDrawerHandle } from "./MobileNavDrawer";
-import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from "@mui/icons-material/Menu";
 
 
 const Header = () => {
@@ -31,7 +31,7 @@ const Header = () => {
               Toby Yeung
             </Button>
           </Box>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+          <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {
               PageRoutes.map((route, index) => (
                 <Button
@@ -46,7 +46,7 @@ const Header = () => {
           </Box>
           <IconButton
             edge="end"
-            sx={{ display: { sm: 'none' } }}
+            sx={{ display: { sm: "none" } }}
             onClick={handleDrawerOpen}
           >
             <MenuIcon />
