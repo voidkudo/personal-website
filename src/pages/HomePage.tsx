@@ -44,12 +44,7 @@ const HomePage = () => {
 
   return (
     <Container sx={{ flex: 1, textAlign: "start" }}>
-      <Typography
-        variant="h2"
-        sx={{ padding: "3rem 0" }}
-      >
-        Hello, my name is Toby.
-      </Typography>
+      <Typography variant="h2" sx={{ padding: "3rem 0" }}>Hello, my name is Toby.</Typography>
       <Typography
         variant="h4"
         component="p"
@@ -113,13 +108,13 @@ const HomePage = () => {
                   Microsoft Certified: DevOps Engineer Expert
                 </Typography>
                 <Typography>
-                  This exam measures your ability to accomplish the following technical tasks:<br />
+                  Skills measured:<br />
                   <ul>
-                    <li>design and implement processes and communications</li>
-                    <li>design and implement a source control strategy</li>
-                    <li>design and implement build and release pipelines</li>
-                    <li>develop a security and compliance plan</li>
-                    <li>implement an instrumentation strategy</li>
+                    <li>Develop Azure compute solutions</li>
+                    <li>Develop for Azure storage</li>
+                    <li>Implement Azure security</li>
+                    <li>Monitor, troubleshoot, and optimize Azure solutions</li>
+                    <li>Connect to and consume Azure services and third-party services</li>
                   </ul>
                 </Typography>
                 <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1, padding: "1rem 0" }}>
