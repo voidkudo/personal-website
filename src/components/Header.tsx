@@ -26,7 +26,7 @@ const Header = () => {
             <Button
               size="large"
               sx={{ color: "white", fontSize: "x-large" }}
-              onClick={() => handlePageRouteClick("/")}
+              onClick={() => handlePageRouteClick("/personal-website/")}
             >
               Toby Yeung
             </Button>
