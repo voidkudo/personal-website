@@ -86,8 +86,8 @@ const AboutPage = () => {
               </Box>
             </CardContent>
             <CardActions>
-              <Button href="https://learn.microsoft.com/credentials/certifications/devops-engineer/" target="_blank">View Certification</Button>
-              <Button href="https://learn.microsoft.com/api/credentials/share/en-us/TobyYeung-8289/294A9D30F21ABFB1?sharingId=78CB81D0FAF43F21" target="_blank">View Credential</Button>
+              <Button href="https://learn.microsoft.com/credentials/certifications/devops-engineer/" target="_blank">Certificate Details</Button>
+              <Button href="https://learn.microsoft.com/api/credentials/share/en-us/TobyYeung-8289/294A9D30F21ABFB1?sharingId=78CB81D0FAF43F21" target="_blank">Credential</Button>
             </CardActions>
           </Card>
         </Grid>
@@ -118,8 +118,8 @@ const AboutPage = () => {
               </Box>
             </CardContent>
             <CardActions>
-              <Button href="https://learn.microsoft.com/credentials/certifications/azure-developer/" target="_blank">View Certification</Button>
-              <Button href="https://learn.microsoft.com/api/credentials/share/en-us/TobyYeung-8289/52E7D71FACCE7C7E?sharingId=78CB81D0FAF43F21" target="_blank">View Credential</Button>
+              <Button href="https://learn.microsoft.com/credentials/certifications/azure-developer/" target="_blank">Certificate Details</Button>
+              <Button href="https://learn.microsoft.com/api/credentials/share/en-us/TobyYeung-8289/52E7D71FACCE7C7E?sharingId=78CB81D0FAF43F21" target="_blank">Credential</Button>
             </CardActions>
           </Card>
         </Grid>

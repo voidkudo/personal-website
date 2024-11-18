@@ -95,8 +95,8 @@ const HomePage = () => {
                 </Box>
               </CardContent>
               <CardActions>
-                <Button href="https://grocery-price-tracker.pages.dev/" target="_blank">Visit Website</Button>
-                <Button href="https://github.com/voidkudo/grocery-price-tracker" target="_blank">Source Code</Button>
+                <Button href="https://grocery-price-tracker.pages.dev/" target="_blank">Live Demo</Button>
+                <Button href="https://github.com/voidkudo/grocery-price-tracker" target="_blank">GitHub Repo</Button>
               </CardActions>
             </Card>
             <Card variant="outlined" sx={{ width: "100%" }}>
@@ -125,8 +125,8 @@ const HomePage = () => {
                 </Box>
               </CardContent>
               <CardActions>
-                <Button href="https://learn.microsoft.com/credentials/certifications/devops-engineer/" target="_blank">View Certification</Button>
-                <Button href="https://learn.microsoft.com/api/credentials/share/en-us/TobyYeung-8289/294A9D30F21ABFB1?sharingId=78CB81D0FAF43F21" target="_blank">View Credential</Button>
+                <Button href="https://learn.microsoft.com/credentials/certifications/devops-engineer/" target="_blank">Certificate Details</Button>
+                <Button href="https://learn.microsoft.com/api/credentials/share/en-us/TobyYeung-8289/294A9D30F21ABFB1?sharingId=78CB81D0FAF43F21" target="_blank">Credential</Button>
               </CardActions>
             </Card>
           </Box>
