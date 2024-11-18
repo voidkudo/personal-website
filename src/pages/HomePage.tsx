@@ -1,6 +1,6 @@
 import { Box, Button, Card, CardActions, CardContent, Chip, Container, Divider, Typography } from "@mui/material"
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from "@mui/icons-material/GitHub"
+import LinkedInIcon from "@mui/icons-material/LinkedIn"
 
 const frontendSkills = [
   "React",
