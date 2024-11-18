@@ -21,7 +21,7 @@ const theme = createTheme({
 
 const router = createBrowserRouter([
   {
-    path: "",
+    path: "/personal-website",
     element: <PageLayout />,
     errorElement: <ErrorPage />,
     children: PageRoutes.map(route => {
