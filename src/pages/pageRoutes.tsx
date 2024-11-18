@@ -20,22 +20,22 @@ export type PageRoute = {
 export const PageRoutes: PageRoute[] = [
   {
     pageName: Page.Home,
-    path: "/",
+    path: "/personal-website/",
     element: <HomePage />
   },
   {
     pageName: Page.About,
-    path: "/about",
+    path: "/personal-website/about",
     element: <AboutPage />
   },
   {
     pageName: Page.Project,
-    path: "/project",
+    path: "/personal-website/project",
     element: <ProjectPage />
   },
   {
     pageName: Page.Resume,
-    path: "/resume",
+    path: "/personal-website/resume",
     element: <ResumePage />
   },
 ]
