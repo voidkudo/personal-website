@@ -45,7 +45,7 @@ const AboutPage = () => {
       <Divider sx={{ margin: "5rem 0" }} />
       <Typography variant="h3">Education</Typography>
       <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: { xs: "center", md: "start" }, alignItems: "center", textAlign: { xs: "center", md: "start" }, padding: "2rem 0" }}>
-        <img src="/CityU_logo.svg" height="128px" />
+        <img src="./CityU_logo.svg" height="128px" />
         <Box sx={{ padding: { xs: "1rem 0", md: "0 2rem" } }}>
           <Typography variant="h4">City University of Hong Kong</Typography>
           <Typography variant="h5">Bachelor of Engineering in Information Engineering</Typography>
