@@ -11,6 +11,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import PageLayout from './components/PageLayout';
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
 import { PageRoutes } from './pages/pageRoutes';
+import ErrorPage from './pages/ErrorPage';
 
 const theme = createTheme({
   typography:{
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
   {
     path: "",
     element: <PageLayout />,
+    errorElement: <ErrorPage />,
     children: PageRoutes.map(route => {
       return {
         path: route.path,
