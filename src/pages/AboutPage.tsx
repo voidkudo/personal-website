@@ -1,5 +1,7 @@
 import { Box, Button, Card, CardActions, CardContent, Chip, Container, Divider, Typography } from "@mui/material"
 import Grid from "@mui/material/Grid2"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const AboutPage = () => {
   return (
@@ -22,8 +24,24 @@ const AboutPage = () => {
         <br />
         Moving to Toronto has introduced me to new perspectives, diverse cultures, and inspiring ideas that continue to fuel my passion for learning and creativity.<br/>
         <br/>
-        When I'm not coding, I enjoy long-distance running, which helps me clear my mind, stay focused, and find inspiration for tackling complex challenges in my work.
+        When I'm not coding, I enjoy long-distance running, which helps me clear my mind, stay focused, and find inspiration for tackling complex challenges in my work.<br />
+        <br />
       </Typography>
+      <Typography variant="h5">Connect and learn more about me:</Typography>
+      <Box sx={{ display: "flex", justifyContent: "start", alignItems: "center", gap: 1, padding: "1rem 0" }}>
+        <Button
+          variant="contained"
+          startIcon={<LinkedInIcon />}
+          href="https://www.linkedin.com/in/tobyyeung/"
+          target="_blank"
+        >LindedIn</Button>
+        <Button
+          variant="contained"
+          startIcon={<GitHubIcon />}
+          href="https://github.com/voidkudo"
+          target="_blank"
+        >GitHub</Button>
+      </Box>
       <Divider sx={{ margin: "5rem 0" }} />
       <Typography variant="h3">Education</Typography>
       <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: { xs: "center", md: "start" }, alignItems: "center", textAlign: { xs: "center", md: "start" }, padding: "2rem 0" }}>
