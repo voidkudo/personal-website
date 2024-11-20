@@ -19,14 +19,14 @@ const Header = () => {
   }
 
   return (
-    <Box component="header" sx={{ display: "flex" }}>
+    <Box component="header" sx={{ display: "flex", position: "sticky", top: 0 }}>
       <AppBar position="static" component="nav" >
         <Toolbar>
           <Box sx={{ flex: 1, textAlign: "start" }}>
             <Button
               size="large"
               sx={{ color: "white", fontSize: "x-large" }}
-              onClick={() => handlePageRouteClick("/personal-website/")}
+              onClick={() => handlePageRouteClick("/")}
             >
               Toby Yeung
             </Button>

@@ -7,7 +7,7 @@ import '@fontsource/roboto/700.css';
 
 import '@fontsource/unifontex/400.css';
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import PageLayout from './components/PageLayout';
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material';
 import { PageRoutes } from './pages/pageRoutes';
@@ -19,9 +19,9 @@ const theme = createTheme({
   }
 })
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/personal-website/",
+    path: "/",
     element: <PageLayout />,
     errorElement: <ErrorPage />,
     children: PageRoutes.map(route => {
